@@ -17,19 +17,5 @@ CONSTRAINT fk_tbl_review FOREIGN KEY (rno) REFERENCES tbl_review(rno) ON DELETE 
 )
 
 CREATE SEQUENCE seq_review_rno
-SELECT seq_review_rno.NEXTVAL FROM DUAL
 
-
-drop table tbl_review
-
-
-drop table reviewfileupload
-
-select * from tbl_review
-select * from reviewfileupload
-delete from tbl_review
-delete from reviewfileupload
-
-ALTER TABLE tbl_review ADD rating NUMBER DEFAULT 0
-DROP TABLE tbl_review CASCADE CONSTRAINTS PURGE;
 

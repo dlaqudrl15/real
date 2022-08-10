@@ -20,12 +20,4 @@ CONSTRAINT pk_reply_rno PRIMARY KEY(rno),
 CONSTRAINT fk_qa_qno FOREIGN KEY(qno) REFERENCES tbl_qa(qno)
 )
 
-
-drop table tbl_reply CASCADE CONSTRAINTS PURGE;
-
-drop table tbl_reply CASCADE CONSTRAINTS
 CREATE SEQUENCE seq_reply_rno
-
-SELECT*FROM tbl_reply
-
-SELECT * FROM COLS WHERE TABLE_NAME = "TBL_BOARD";
