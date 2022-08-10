@@ -15,13 +15,4 @@ msocial NUMBER default 0,
 CONSTRAINT pk_member_mid PRIMARY KEY(mid)
 )
 
-DROP table tbl_member cascade constraint
-
-
-INSERT INTO tbl_member
-		(mid, mpw, mname, memail, mphone, maddress, mbirth)
-		VALUES
-		('12', '12', '12', '12@12', '010-0000-0000', '중랑구', '2002-02-02')
-		
-select * from tbl_member
 
