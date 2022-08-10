@@ -20,5 +20,12 @@ WonMarket<br>
 
 ### DBMS : Oracle
 
-### Build Tools : maven
+### Build Tools : maven<br>
+
+-----------------------------------------------------------------------------------------------
+### 메인페이지
+
+
+
+https://user-images.githubusercontent.com/105684950/183805777-52f4e1e5-4472-4145-b5fd-8ef425e9f9e2.mp4
 
